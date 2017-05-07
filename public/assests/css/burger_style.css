@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fastfood.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+h1{
+    color: crimson;
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px 1px #ccc;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+.list-group-item-warning {
+    background-color: darkslategrey;
+    color: darkorange;
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px 1px #ccc;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    word-spacing: 5px;
+}
+
