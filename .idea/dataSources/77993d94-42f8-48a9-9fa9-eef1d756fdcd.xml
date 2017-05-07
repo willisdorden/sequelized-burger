@@ -37,5 +37,40 @@
     <schema id="30" parent="1" name="top_songsdb"/>
     <schema id="31" parent="1" name="wishes_db"/>
     <schema id="32" parent="1" name="wizard_schools_db"/>
+    <table id="33" parent="24" name="burgers"/>
+    <column id="34" parent="33" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="35" parent="33" name="burger_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="36" parent="33" name="devoured">
+      <Position>3</Position>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="37" parent="33" name="date">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="38" parent="33" name="createdAt">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="33" name="updatedAt">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="40" parent="33" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>
